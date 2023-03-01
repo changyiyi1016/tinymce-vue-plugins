@@ -1,22 +1,10 @@
 {
-    "name": "tinymic-vue-plugins",
+    "name": "tinymce-vue-plugins",
     "version": "1.0.0",
-    "description": "tinymce-vue A set of extension plug-ins for the rich text compiler",
-    "main": "dist/index.cjs.js",
-    "module": "dist/index.es.js",
+    "description": "tinymce-vue A set of extension plugins for the rich text compiler",
     "author": "changyi",
     "license": "MIT",
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
-    "repository": {
-        "type": "git",
-        "url": "ssh://git@github.com:changyiyi1016/tinymce-vue-plugins.git"
-    },
-    "bugs": {
-        "url": "https://github.com/changyiyi1016/tinymce-vue-plugins/issues"
-    },
-    "homepage": "https://github.com/changyiyi1016/tinymce-vue-plugins/#readme""scripts": {
+    "scripts": {
         "bootstrap": "pnpm install",
         "dev": "vite",
         "build": "vue-tsc --noEmit && vite build",
