@@ -1,6 +1,6 @@
 {
     "name": "tinymce-vue-plugins",
-    "version": "1.0.0",
+    "version": "1.0.6",
     "description": "tinymce-vue A set of extension plugins for the rich text compiler",
     "main": "dist/index.cjs.js",
     "module": "dist/index.es.js",
