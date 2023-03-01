@@ -4,14 +4,6 @@ This is tinymce vue plugins
 
 ## 前言
 
-先睹为快可访问：
-
-https://tinymce-plugin.github.io/
-
-https://tinymce-plugin.gitee.io/
-
-https://tinymce-plugin.vercel.app/
-
 [tinymce 官方文档](https://www.tiny.cloud/docs/)
 
 [tinymce 中文文档](http://tinymce.ax-z.cn/)
@@ -26,49 +18,6 @@ This is tinymce plugins 该项目主要为 tinymce 富文本编译器的扩展�
 
 ```bash
  npm i tinymce-vue-plugins 或 cnpm i tinymce-vue-plugins -D
-```
-
-## 使用说明
-
-未使用过 tinymce ，可以查看莫若卿大佬的 [tinymce 中文文档 ](http://tinymce.ax-z.cn/)
-
-#### axupimgs（Vue）使用方法：
-
-```javascript
-tinymce.init({
-    selector: '#tinydemo',
-    plugins: 'axupimgs',
-    toolbar: 'axupimgs',
-});
-```
-
-[点击下载](https://github.com/Five-great/tinymce-plugins/releases/download/0.0.5/axupimgs.rar) [更多下载](https://github.com/Five-great/tinymce-plugins/releases/tag/0.0.5)
-
-更多配置 见 [插件 / axupimgs](http://tinymce.ax-z.cn/more-plugins/axupimgs.php)
-
-#### attachment 使用方法：
-
-```javascript
-tinymce.init({
-    selector: '#tinydemo',
-    plugins: 'attachment',
-    toolbar: 'attachment',
-});
-```
-
-[点击下载](https://github.com/Five-great/tinymce-plugins/releases/download/0.0.5/attachment.rar) [更多下载](https://github.com/Five-great/tinymce-plugins/releases/tag/0.0.5)
-
-更多配置(选配) :
-
-提供 `attachment` 插件 提供 `attachment_max_size`，`attachment_style`,`attachment_icons_path`,`attachment_upload_handler` 配置参数 attachment_max_size: 附件大小限制 默认 209715200 （200M）【number】 attachment_style: 附件的样式，主要为保存数据后可以直接在其他页面展示。 【string】 attachment_icons_path： 附件的 图标的路径 icons ， 默认 当前路径 `Vue` 默认 'https://unpkg.com/@npkg/tinymce-plugins/plugins/attachment/icons' attachment_upload_handler： 附件上传处理函数 【function】 function(file, succFun, failFun, progressCallback)
-
-1. file : 文件对象【file】
-2. succFun : 成功回调函数 传入 (url|string)
-3. failFun : 失败回调函数 传入 (string)
-4. progressCallback: 进程回调函数 传入 (string)
-
-```javascript
-
 ```
 
 # 基于 tinymce 的附件上传插件
@@ -187,4 +136,8 @@ import 'tinymce-vue-plugins';
 
 ```javascript
 import 'tinymce-vue-plugins/tinymce-attachment-plugin';
+```
+
+```
+
 ```
