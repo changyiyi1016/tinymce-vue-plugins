@@ -1,12 +1,12 @@
-import * as Buttons from './file/ui/Buttons';
-import * as Commands from './file/api/Commands';
-import * as DragDrop from './file/core/DragDrop';
+import * as Buttons from './ui/Buttons';
+import * as Commands from './api/Commands';
+import * as DragDrop from './core/DragDrop';
 
 declare const tinymce: any;
-export default function () {
+export default (function () {
     tinymce.PluginManager.add('attachment', function (editor) {
         Buttons.setup(editor);
         Commands.register(editor);
         DragDrop.setup(editor);
     });
-}
+})();
